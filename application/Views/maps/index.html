@@ -1,0 +1,14 @@
+{% extends "admin/layout.html" %} 
+{% block content %}
+<head>
+    <script src="{{baseURL}}/assets/leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="{{baseURL}}/assets/leaflet/leaflet.css" />
+    <style>
+        #maps {
+            height: 500px;
+        }
+    </style>
+</head>
+<h1>Peta Indonesia</h1>
+<div id="maps"></div>
+{% endblock %}
